@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BoxMover
     - CameraScript
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
@@ -17,8 +18,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -32,7 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/scene 2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -51,28 +54,42 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 592}
+      Script: {instanceID: 600}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 12042}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 13938}
+      Script: {instanceID: 13066}
     - Class: 114
-      Script: {instanceID: 14386}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 15020}
+      Script: {instanceID: 13980}
     - Class: 114
-      Script: {instanceID: 18828}
+      Script: {instanceID: 14398}
     - Class: 114
-      Script: {instanceID: 23260}
+      Script: {instanceID: 14704}
+    - Class: 114
+      Script: {instanceID: 15034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -336,6 +353,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: a9d7f6d7c27356ec1d7c7b5a2a2b2c43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -382,6 +405,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: ade37ec6cd1f8ab0a386a0cd23a47272
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Audio
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -450,6 +479,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -490,6 +525,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxMover
   - hash:
       serializedVersion: 2
       Hash: a01d7cd1372d550f912f7121e6ebe739
@@ -586,19 +627,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 5
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Vanes/Documents/Unity Projects/Hello World/Sanchez_Vanessa_DIG3480_Tutorial2/Builfd/Sanchez_Vanessa_DIG3480_Tutorial2.exe
+  - Assets/Scenes/scene 2.unity
+  playerPath: C:/Users/Vanes/Documents/test/Sanchez_Vanessa_DIG3480_Challenge2.exe
